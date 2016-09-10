@@ -1,0 +1,127 @@
+/*TIPOGRAFÍA*/
+.tw{
+	color: #ffffff;
+}
+.tb{
+	color: #000000;
+}
+.txprincipal{
+	font-size: 470%;
+}
+/*BACKGROUNDS*/
+.navbar-default{
+	background-color: #006600;
+	height: 9em;
+}
+ul.nav a:hover { 
+	color: #fff !important;
+	background-color: transparent !important; 
+}
+/*IMAGENES*/
+.imguno{
+	width: 100%; 
+	height: 34em;
+}
+/*MARGING AND PADDING*/
+.pt{
+	padding-top: 2.5%;
+}
+.mt{
+	margin-top: 29%;
+}
+.mt2{
+	margin-top: 5%;
+}
+.ml{
+	margin-left: 20%;
+}
+.pl{
+	padding-left: 13%;
+}
+.pb{
+	padding-bottom: 2%;
+}
+/*CUADROS*/
+.cuno{
+	background-color: #89D2E7;
+	height: 10em;
+	width: 17%;
+}
+.cdos{
+	background-color: #a7dbdb;
+}
+.ctres{
+	background-color: #E0E4CC;
+}
+.ccuatro{
+	background-color: #F38630;
+}
+.ccinco{
+	background-color: #FA6900;
+}
+.seis{
+	background-color: #E94C6F;
+}
+.siete{
+	background-color: #542733;
+}
+.ocho{
+	background-color: #5A6A62;
+}
+.nueve{
+	background-color: #C6D5CD;
+}
+.diez{
+	background-color: #FDF200;
+}
+.once{
+	background-color: #DB3340;
+}
+.doce{
+	background-color: #E8B71A;
+}
+.trece{
+	background-color: #F7EAC8;
+}
+.ktorce{
+	background-color: #1FDA9A;
+}
+.quince{
+	background-color: #28ABE3;
+}
+.dseis{
+	background-color: #588C73;
+}
+.dsiete{
+	background-color: #F2E394;
+}
+.docho{
+	background-color: #F2AE72;
+}
+.dnueve{
+	background-color: #D96459;
+}
+.veinte{
+	background-color: #8C4646;
+}
+.vuno{
+	background-color: #D0C91F;
+}
+.vdos{
+	background-color: #85C4B9;
+}
+.vtres{
+	background-color: #008BBA;
+}
+.vcuatro{
+	background-color: #DF514C;
+}
+.vcinco{
+	background-color: #DC403B;
+}
+/*OTRO*/
+.hr{
+	height: 0.2em;
+	width: 40%;
+	background-color: #000000;
+}
