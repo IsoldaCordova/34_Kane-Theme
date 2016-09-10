@@ -10,7 +10,8 @@
     <link rel="stylesheet"  href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,400italic,700">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css" >
+    <link rel="stylesheet" type="text/css" href="css/queries.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="font-awesome/css/ionicons.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -32,7 +33,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <img src="img/logo.png" class="mt ml">
+                            <img src="img/logo.png" class="mt ml" id="logo">
                         </div>
                         <!-- CONTENIDO BOTON -->
                         <div id="navbarCollapse" class="collapse navbar-collapse pull-right pt">
@@ -210,7 +211,7 @@
             <div class="row">
                 <div class="col-xs- col-sm- col-md-6 col-lg-6 tw pAbout">
                     <p>Quae rem consequuntur magnam, quo a quos quas repellat, reiciendis, eveniet molestiae tempora nobis distinctio! Odit neque, excepturi quasi sapiente reprehenderit soluta.</p>
-                    <p>Aliquam quasi deserunt laudantium assumenda repellendus labore veniam, delectus corrupti amet, pariatur facere dolor sunt molestiae voluptate aliquid consectetur cumque reprehenderit quia.</p>
+                    <p class="hidden-xs">Aliquam quasi deserunt laudantium assumenda repellendus labore veniam, delectus corrupti amet, pariatur facere dolor sunt molestiae voluptate aliquid consectetur cumque reprehenderit quia.</p>
                     <!-- HTML PROGRESS BAR -->
                     <div class="mt2">   
                         <div class="progress">
@@ -258,7 +259,7 @@
             </div>
         </div>
     </section>
-                   <!-- WHAT WE DO SECTION     FALTA ACOMODAR ICONOS Y MEJORAR CLASES-->
+    <!-- WHAT WE DO SECTION -->
     <section>
         <div class="container-fluid green">
             <div class="row">
@@ -269,21 +270,21 @@
                 </div>
             </div>
             <div class="row tw text-center mt2">
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <img src="img/icons/web.png" class="iconsection">
                     <p class=" tx20 mt2">Web Design</p>
-                    <p class="tx10 pSection hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
+                    <p class="tx10 pSection hidden-xs qbottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <img src="img/icons/gd.png" class="iconsection">
                     <p class=" tx20 mt2">Graphic Design</p>
-                    <p class="tx10 pSection hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa necessitatibus, eius architecto ea consequuntur quas, facilis facere a dolorem distinctio, enim. Quia, repellendus, pariatur? Architecto quos omnis non veniam.</p>
+                    <p class="tx10 pSection hidden-xs qbottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa necessitatibus, eius architecto ea consequuntur quas, facilis facere a dolorem distinctio, enim. Quia, repellendus, pariatur? Architecto quos omnis non veniam.</p>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
                     <div class="thumbnail pt2">
                         <img src="img/icons/mob.png" class="iconsect2">
                         <p class="txorange tx20 mt2">Mobile App</p>
-                        <p class="tx10 ptable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ea voluptates a quae commodi. Autem, porro dolores velit aspernatur similique doloremque tempore itaque tempora laudantium voluptatum doloribus cupiditate.</p>
+                        <p class="tx10 ptable hidden-xs qbottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ea voluptates a quae commodi. Autem, porro dolores velit aspernatur similique doloremque tempore itaque tempora laudantium voluptatum doloribus cupiditate.</p>
                     </div>
                 </div>
             </div>
@@ -296,62 +297,62 @@
     </section>
     <!-- OUR TEAM -->
     <section>
-        <div class="container-fluid green">
+        <div class="container-fluid green ourawesome">
             <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12 tw text-center">
-                    <p class="txprincipal mt2">OUR AWESOME TEAM</p>
-                    <hr class="hr hw">
-                    <p class="tx10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw text-center">
+                    <p class="txprincipal mt2" id="awesome">OUR AWESOME TEAM</p>
+                    <hr class="hr hw hrAwesome">
+                    <p class="tx10 hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
             <div class="row tw text-center mt2 pTeam">
-            <!-- PARTE DEL TEAM -->
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <img src="img/team/1.jpg" class="ml2">
+            <!-- PARTE DEL TEAM 1-->
+                <div class="hidden-xs col-sm-6 col-md-6 col-lg-3">
+                    <img src="img/team/1.jpg" class="ml2 team">
                     <p class=" tx20 mt2">Jane Dow</p>
-                    <p class="tb">CEO / Founder</p>
-                    <hr class="puntitos">
-                    <p class="tx10 pAbout">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
-                    <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                    <p class="tb extra">CEO / Founder</p>
+                    <hr class="puntitos hidden-xs">
+                    <p class="tx10 pAbout hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
+                    <i class="fa fa-facebook-square fa-lg qb" aria-hidden="true"></i>
                     <i class="fa fa-twitter-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-linkedin-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-pinterest-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-instagram fa-lg ml3" aria-hidden="true"></i>
                 </div>
-                 <!-- PARTE DEL TEAM -->
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <img src="img/team/1.jpg" class="ml2">
+                 <!-- PARTE DEL TEAM 2-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 team2">
+                    <img src="img/team/1.jpg" class="ml2 team">
                     <p class=" tx20 mt2">Jane Dow</p>
-                    <p class="tb">CEO / Founder</p>
-                    <hr class="puntitos">
-                    <p class="tx10 pAbout">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
-                    <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                    <p class="tb extra">CEO / Founder</p>
+                    <hr class="puntitos hidden-xs">
+                    <p class="tx10 pAbout hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
+                    <i class="fa fa-facebook-square fa-lg qb" aria-hidden="true"></i>
                     <i class="fa fa-twitter-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-linkedin-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-pinterest-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-instagram fa-lg ml3" aria-hidden="true"></i>
                 </div>
-                 <!-- PARTE DEL TEAM -->
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <img src="img/team/1.jpg" class="ml2">
+                 <!-- PARTE DEL TEAM 3-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 team2">
+                    <img src="img/team/1.jpg" class="ml2 team">
                     <p class=" tx20 mt2">Jane Dow</p>
-                    <p class="tb">CEO / Founder</p>
-                    <hr class="puntitos">
-                    <p class="tx10 pAbout">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
-                    <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                    <p class="tb extra">CEO / Founder</p>
+                    <hr class="puntitos hidden-xs">
+                    <p class="tx10 pAbout hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
+                    <i class="fa fa-facebook-square fa-lg qb" aria-hidden="true"></i>
                     <i class="fa fa-twitter-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-linkedin-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-pinterest-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-instagram fa-lg ml3" aria-hidden="true"></i>
                 </div>
-                 <!-- PARTE DEL TEAM -->
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                    <img src="img/team/1.jpg" class="ml2">
+                 <!-- PARTE DEL TEAM 4-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 team2">
+                    <img src="img/team/1.jpg" class="ml2 team">
                     <p class=" tx20 mt2">Jane Dow</p>
-                    <p class="tb">CEO / Founder</p>
-                    <hr class="puntitos">
-                    <p class="tx10 pAbout">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
-                    <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                    <p class="tb extra">CEO / Founder</p>
+                    <hr class="puntitos hidden-xs">
+                    <p class="tx10 pAbout hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
+                    <i class="fa fa-facebook-square fa-lg qb" aria-hidden="true"></i>
                     <i class="fa fa-twitter-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-linkedin-square fa-lg ml3" aria-hidden="true"></i>
                     <i class="fa fa-pinterest-square fa-lg ml3" aria-hidden="true"></i>
@@ -372,7 +373,7 @@
             </div>
             <div class="row">
                 <!-- tabla STARTER -->
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 ptable mt2">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ptable mt2">
                     <table class="table table-bordered text-center tw">
                         <thread>
                             <tr class="tbrown">
@@ -411,7 +412,7 @@
                     </table>
                 </div>
                 <!-- tabla BASIC-->
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 ptable mt2 mln">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ptable mt2 mln">
                     <table class="table table-bordered text-center tw">
                         <thread>
                             <tr>
@@ -450,7 +451,7 @@
                     </table>
                 </div>
                 <!-- tabla FEATURE-->
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 ptable mt2 mln">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ptable mt2 mln">
                     <table class="table table-bordered text-center tw">
                         <thread>
                             <tr>
@@ -489,8 +490,8 @@
                     </table>
                 </div>
                 <!-- tabla PROFESSIONAL-->
-                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 ptable mt2 mln">
-                    <table class="table table-bordered text-center tw">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ptable mt2 mln">
+                    <table class="table table-bordered text-center tw tabledos">
                         <thread>
                             <tr>
                                 <th class="text-center">PROFESSIONAL</th>
@@ -532,7 +533,7 @@
     </section>
     <!-- OUR CLIENTS SAY -->
     <section>
-        <div class="container-fluid blue">
+        <div class="container-fluid blue clientS">
             <div class="row">
                 <div class="hidden-xs col-sm-12 col-md-12 col-lg-12 tw text-center">
                     <p class="txprincipal mt2">WHAT OUR CLIENTS SAY</p>
@@ -565,9 +566,9 @@
     </section>
     <!-- GET IN TOUCH -->
     <section>
-        <div class="container-fluid blue bluemedida">
+        <div class="container-fluid blue bluemedida blueextra">
             <div class="row">
-                <div class="hidden-xs col-sm-12 col-md-12 col-lg-12 tw text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw text-center">
                     <p class="txprincipal mt5">GET IN TOUCH</p>
                     <hr class="hr hw hrtouch">
                     <p class="tx10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, sequi doloremque.</p>
@@ -649,11 +650,12 @@
    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
    </body>
+   <!-- FOOTER -->
    <footer>
-       <div class="container-fluid green greenmedida">
+       <div class="container-fluid green greenmedida footer">
            <div class="row">
                 <!-- VISIT US -->
-               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 tw text-center mt6">
+               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tw text-center mt6">
                     <p class="tx20">Visit Us</p>
                     <hr class="hw hrtouch">
                     <i class="fa fa-location-arrow fa-lg" aria-hidden="true">
@@ -669,7 +671,7 @@
                     </i>
                 </div>
                 <!-- WRITE US -->
-               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 tw text-center mt6">
+               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tw text-center mt6">
                     <p class="tx20">Write Us</p>
                     <hr class="hw hrtouch">
                     <i class="fa fa-phone fa-lg" aria-hidden="true">
@@ -685,7 +687,7 @@
                     </i>
                 </div>
                 <!-- Newsletter -->
-               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 tw mt6">
+               <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 tw mt6">
                     <p class="tx20 ml">Newsletter</p>
                     <hr class="hw hrtouch ml5">
                     <!-- Formulario -->
