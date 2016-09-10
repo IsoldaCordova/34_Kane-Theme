@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" >
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="font-awesome/css/ionicons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>  
 <!-- Escribe tu código HTML aquí -->
@@ -52,15 +54,45 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <!-- carrusel -->
-                   <div class="carousel-item">
-                        <img src="img/carousel-bg.jpg" alt="..." class="imguno">
-                        <div class="carousel-caption">
-                            <h3>BEAUTIFUL COLOR PALETTES FOR <br> YOUR NEXT WEB PROJECT</h3>
-                            <p>Choosing the right color scheme is essencial to your website to success. Your layout and other design choices - including font - should be developed in concert with your color scheme to ensure readability, cohesiveness and beauty in the final project.</p>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mtn">
+                <!-- cARRUSEL -->
+                   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                       <!-- Indicadores -->
+                       <ol class="carousel-indicators">
+                           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                           <li data-target="#myCarousel" data-slide-to="1"></li>
+                           <li data-target="#myCarousel" data-slide-to="1"></li>
+                       </ol>
+                       <!-- Slides -->
+                        <div class="carousel-inner">
+                            <div class="item active"><!-- Slide 1 -->
+                                <img src="img/carousel-bg.jpg" alt="..." class="imguno">
+                                <div class="carousel-caption">
+                                    <p class="tximage">BEAUTIFUL COLOR PALETTES FOR YOUR NEXT WEB PROJECT</p>
+                                    <p class="txcarousel">Choosing the right color scheme is essencial to your website to success. Your layout and other design choices - including font - should be developed in concert with your color scheme to ensure readability, cohesiveness and beauty in the final product.</p>
+                                </div>
+                            </div>
+                            <div class="item"><!-- Slide 2 -->
+                                <img src="img/carousel-bg.jpg" alt="..." class="imguno">
+                                <div class="carousel-caption">
+                                    <p class="tximage">BEAUTIFUL COLOR PALETTES FOR YOUR NEXT WEB PROJECT</p>
+                                </div>
+                            </div>
+                            <div class="item"><!-- Slide 3 -->
+                                <img src="img/carousel-bg.jpg" alt="..." class="imguno">
+                                <div class="carousel-caption">
+                                    <p class="tximage">BEAUTIFUL COLOR PALETTES FOR YOUR NEXT WEB PROJECT</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <!-- CONTROLS -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                   </div>
                 </div>
             </div>
         </div>
@@ -238,16 +270,21 @@
             </div>
             <div class="row tw text-center mt2">
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <p class=" tx20">Web Design</p>
-                    <p class="tx10 pSection">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
+                    <img src="img/icons/web.png" class="iconsection">
+                    <p class=" tx20 mt2">Web Design</p>
+                    <p class="tx10 pSection hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat odio alias quibusdam tempora asperiores dignissimos at omnis? Distinctio aperiam voluptatem in, doloremque expedita. Placeat facilis, architecto.</p>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <p class=" tx20">Graphic Design</p>
-                    <p class="tx10 pSection">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa necessitatibus, eius architecto ea consequuntur quas, facilis facere a dolorem distinctio, enim. Quia, repellendus, pariatur? Architecto quos omnis non veniam.</p>
+                    <img src="img/icons/gd.png" class="iconsection">
+                    <p class=" tx20 mt2">Graphic Design</p>
+                    <p class="tx10 pSection hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa necessitatibus, eius architecto ea consequuntur quas, facilis facere a dolorem distinctio, enim. Quia, repellendus, pariatur? Architecto quos omnis non veniam.</p>
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                    <p class="txorange tx20">Mobile App</p>
-                    <p class="tx10 pSection">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ea voluptates a quae commodi. Autem, porro dolores velit aspernatur similique doloremque tempore itaque tempora laudantium voluptatum doloribus cupiditate.</p>
+                    <div class="thumbnail pt2">
+                        <img src="img/icons/mob.png" class="iconsect2">
+                        <p class="txorange tx20 mt2">Mobile App</p>
+                        <p class="tx10 ptable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ea voluptates a quae commodi. Autem, porro dolores velit aspernatur similique doloremque tempore itaque tempora laudantium voluptatum doloribus cupiditate.</p>
+                    </div>
                 </div>
             </div>
             <div class="row">

@@ -11,6 +11,12 @@
 .txprincipal{
 	font-size: 470%;
 }
+.tximage{
+	font-size: 400%;
+}
+.txcarousel{
+	font-size: 130%;
+}
 .tx10{
 	font-size: 10px;
 }
@@ -49,6 +55,12 @@ ul.nav a:hover {
 .greenmedida{
 	height: 17em;
 }
+.thumbnail{
+	background-color: #009900;
+	border:none;
+	width: 70%;
+
+}
 .tbrown{
 	background-color: #663300;
 }
@@ -66,17 +78,30 @@ ul.nav a:hover {
 /*IMAGENES*/
 .imguno{
 	width: 100%; 
-	height: 34em;
+	height: 30em !important;
 }
 .imgAbout{
 	width: 55%;
+}
+.iconsection{
+	width: 30%;
+}
+.iconsect2{
+	width: 40%;
+	transform: rotate(15deg);
 }
 /*MARGING AND PADDING*/
 .pt{
 	padding-top: 2.5%;
 }
+.pt2{
+	padding-top: 3%;
+}
 .mt{
 	margin-top: 29%;
+}
+.mtn{
+	margin-top: -2%;
 }
 .mt2{
 	margin-top: 5%;
@@ -256,4 +281,4 @@ ul.nav a:hover {
 }
 .cajamail{
 	width: 60%;
-}
+
