@@ -17,6 +17,12 @@
 .tx20{
 	font-size: 20px;
 }
+.tx30{
+	font-size: 50px;
+}
+.italic{
+	font-style: italic;
+}
 /*BACKGROUNDS*/
 .navbar-default{
 	background-color: #006600;
@@ -30,9 +36,21 @@ ul.nav a:hover {
 	background-color: #0F1F2E;
 	height: 55em;
 }
+.bluemedida{
+	height: 60em;
+}
 .green{
 	background-color: #006600;
 	height: 55em;
+}
+.tbrown{
+	background-color: #663300;
+}
+.twhite{
+	background-color: #ffffff;
+}
+.tablagreen{
+	background-color: #006600;
 }
 /*IMAGENES*/
 .imguno{
@@ -55,11 +73,23 @@ ul.nav a:hover {
 .mt3{
 	margin-top: 10%;
 }
+.mt4{
+	margin-top: 20%;
+}
+.mln{
+	margin-left: -3.6%;
+}
 .ml{
 	margin-left: 20%;
 }
 .ml2{
 	margin-left: 10%;
+}
+.ml3{
+	margin-left: 5%;
+}
+.ml4{
+	margin-left: 45%;
 }
 .pl{
 	padding-left: 13%;
@@ -73,13 +103,25 @@ ul.nav a:hover {
 .pSection{
 	padding: 0% 25% 0% 25%;
 }
+.pTeam{
+	padding: 0% 10% 0% 5%;
+}
+.ptable{
+	padding: 0% 10% 5% 10%;
+}
+.mbsignup{
+	margin: 10% 0% 10% 0%;
+}
 /*BOTONES*/
 .gris{
 	background-color: #0D0D0D;
 	color: #fff;
 	border:none;
-	width: 30%;
+	width: 10%;
 	height: 3em;
+}
+.gris2{
+	width: 40%;
 }
 /*CUADROS*/
 .cuno{
@@ -164,6 +206,10 @@ ul.nav a:hover {
 	height: 0.2em;
 	width: 40%;
 	background-color: #000000;
+}
+.puntitos{
+	width: 50%;
+	border: 1px dotted;
 }
 .hw{
 	background-color: #ffffff;
