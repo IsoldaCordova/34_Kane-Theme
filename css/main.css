@@ -5,8 +5,17 @@
 .tb{
 	color: #000000;
 }
+.txorange{
+	color: orange;
+}
 .txprincipal{
 	font-size: 470%;
+}
+.tx10{
+	font-size: 10px;
+}
+.tx20{
+	font-size: 20px;
 }
 /*BACKGROUNDS*/
 .navbar-default{
@@ -17,10 +26,21 @@ ul.nav a:hover {
 	color: #fff !important;
 	background-color: transparent !important; 
 }
+.blue{
+	background-color: #0F1F2E;
+	height: 55em;
+}
+.green{
+	background-color: #006600;
+	height: 55em;
+}
 /*IMAGENES*/
 .imguno{
 	width: 100%; 
 	height: 34em;
+}
+.imgAbout{
+	width: 55%;
 }
 /*MARGING AND PADDING*/
 .pt{
@@ -32,14 +52,34 @@ ul.nav a:hover {
 .mt2{
 	margin-top: 5%;
 }
+.mt3{
+	margin-top: 10%;
+}
 .ml{
 	margin-left: 20%;
+}
+.ml2{
+	margin-left: 10%;
 }
 .pl{
 	padding-left: 13%;
 }
 .pb{
 	padding-bottom: 2%;
+}
+.pAbout{
+	padding: 5% 5% 0% 15%;
+}
+.pSection{
+	padding: 0% 25% 0% 25%;
+}
+/*BOTONES*/
+.gris{
+	background-color: #0D0D0D;
+	color: #fff;
+	border:none;
+	width: 30%;
+	height: 3em;
 }
 /*CUADROS*/
 .cuno{
@@ -124,4 +164,10 @@ ul.nav a:hover {
 	height: 0.2em;
 	width: 40%;
 	background-color: #000000;
+}
+.hw{
+	background-color: #ffffff;
+}
+.progress{
+	height: 0.8em;
 }
