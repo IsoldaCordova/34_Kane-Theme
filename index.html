@@ -9,10 +9,10 @@
 
     <link rel="stylesheet"  href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,400italic,700">
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet"  href="css/main.css" >
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="font-awesome/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" >
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/ionicons.min.css">
   </head>
   <body>  
 <!-- Escribe tu código HTML aquí -->
@@ -497,17 +497,113 @@
     <section>
         <div class="container-fluid blue">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw text-center">
+                <div class="hidden-xs col-sm-12 col-md-12 col-lg-12 tw text-center">
                     <p class="txprincipal mt2">WHAT OUR CLIENTS SAY</p>
                     <hr class="hr hw">
                     <p class="tx10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
-            <!-- Text 1 -->
+            <!-- Comment 1 -->
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw text-center mt2">
-                    <p class="italic pSection">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolore at consequuntur sed quod, perferendis molestiae ratione veniam, sunt enim itaque quo esse aperiam obcaecati debitis et optio facere. Consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat qui temporibus quo saepe velit est enim aliquam, cum blanditiis, totam, sapiente laudantium. Ea quaerat, illum corporis id vitae provident consectetur?</p>
+                <div class="hidden-xs col-sm-12 col-md-12 col-lg-12 tw text-center mt2">
+                    <p class="italic pClient">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolore at consequuntur sed quod, perferendis molestiae ratione veniam, sunt enim itaque quo esse aperiam obcaecati debitis et optio facere. Consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat qui temporibus quo saepe velit est enim aliquam, cum blanditiis, totam, sapiente laudantium. Ea quaerat, illum corporis id vitae provident consectetur?</p>
                     <p class="txorange">- Automotive Company</p>
+                </div>
+            </div>
+            <!-- Comment 2 -->
+            <div class="row">
+                <div class="hidden-xs col-sm-12 col-md-12 col-lg-12 tw text-center">
+                    <p class="italic pClient">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolore at consequuntur sed quod, perferendis molestiae ratione veniam, sunt enim itaque quo esse aperiam obcaecati debitis et optio facere. Consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat qui temporibus quo saepe velit est enim aliquam, cum blanditiis, totam, sapiente laudantium. Ea quaerat, illum corporis id vitae provident consectetur?</p>
+                    <p class="txorange">- XPedius Aerospace</p>
+                </div>
+            </div>
+            <!-- Comment 3 -->
+            <div class="row">
+                <div class="hidden-xs col-sm-12 col-md-12 col-lg-12 tw text-center">
+                    <p class="italic pClient">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolore at consequuntur sed quod, perferendis molestiae ratione veniam, sunt enim itaque quo esse aperiam obcaecati debitis et optio facere. Consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat qui temporibus quo saepe velit est enim aliquam, cum blanditiis, totam, sapiente laudantium. Ea quaerat, illum corporis id vitae provident consectetur?</p>
+                    <p class="txorange">- CKPit Solution</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GET IN TOUCH -->
+    <section>
+        <div class="container-fluid blue bluemedida">
+            <div class="row">
+                <div class="hidden-xs col-sm-12 col-md-12 col-lg-12 tw text-center">
+                    <p class="txprincipal mt5">GET IN TOUCH</p>
+                    <hr class="hr hw hrtouch">
+                    <p class="tx10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, sequi doloremque.</p>
+                </div>
+            </div>
+            <!-- FORMULARIO NOMBRE -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw text-center mt2 ml5">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <input type="name" class="form-control" id="name" placeholder="Name*">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- FORMULARIO EMAIL -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw text-center ml5">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <input type="email" class="form-control" id="email" placeholder="Email*">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- FORMULARIO PHONE -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw text-center ml5">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <input type="phone" class="form-control" id="phone" placeholder="Phone">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- FORMULARIO MESSAGE -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw text-center ml5">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <input type="message" class="form-control" id="message" placeholder="Message*">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw ml5">
+                    <p class="tx10">*REQUIRED</p>
+                    <button class="gris ml">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- REDES SOCIALES -->
+    <section>
+        <div class="container-fluid rsociales">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tw text-center mt5">
+                    <i class="fa fa-facebook-square fa-5x mr" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square fa-5x mr" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square fa-5x mr" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-square fa-5x mr" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus-square fa-5x mr" aria-hidden="true"></i>
+                    <i class="fa fa-tumblr-square fa-5x mr" aria-hidden="true"></i>
+                    <i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
@@ -516,5 +612,58 @@
    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
    </body>
-   <footer></footer>
+   <footer>
+       <div class="container-fluid green greenmedida">
+           <div class="row">
+                <!-- VISIT US -->
+               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 tw text-center mt6">
+                    <p class="tx20">Visit Us</p>
+                    <hr class="hw hrtouch">
+                    <i class="fa fa-location-arrow fa-lg" aria-hidden="true">
+                        <p class="tx12 pull-right">10 Lorum Ipsum Street</p>
+                    </i>
+                    <br>
+                    <i class="fa fa-map-marker fa-lg" aria-hidden="true">
+                        <p class="tx12 pull-right">68123 Mannheim</p>
+                    </i>
+                     <br>
+                     <i class="fa fa-flag fa-lg" aria-hidden="true">
+                        <p class="tx12 pull-right">GERMANY</p>
+                    </i>
+                </div>
+                <!-- WRITE US -->
+               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 tw text-center mt6">
+                    <p class="tx20">Write Us</p>
+                    <hr class="hw hrtouch">
+                    <i class="fa fa-phone fa-lg" aria-hidden="true">
+                        <p class="tx12 pull-right">+49 621 123 321 123</p>
+                    </i>
+                    <br>
+                    <i class="fa fa-envelope fa-lg" aria-hidden="true">
+                        <p class="tx12 pull-right">info@fabianbentz.de</p>
+                    </i>
+                     <br>
+                     <i class="fa fa-print fa-lg" aria-hidden="true">
+                        <p class="tx12 pull-right">+49 621 123 321 124</p>
+                    </i>
+                </div>
+                <!-- Newsletter -->
+               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 tw mt6">
+                    <p class="tx20 ml">Newsletter</p>
+                    <hr class="hw hrtouch ml5">
+                    <!-- Formulario -->
+                    <div class="input-group cajamail">
+                        <span class="input-group-addon"><i class="fa fa-envelope fa-lg txorange" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Enter Email">
+                    </div>
+                    <button class="gris gris3 ml mt2">Subscribe Now!</button>
+                </div>
+           </div>
+           <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mt6">
+                   <a href="#" class="tx10 ml2"><font color="darkblue"> ©2013 ThreeSixty Website Template</font>  - Privacy - Terms</a>
+               </div>
+           </div>
+       </div>
+   </footer>
 </html>
